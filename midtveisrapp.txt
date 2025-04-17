@@ -1,0 +1,38 @@
+Tussudal Bygdemuseum – Underveisrapport
+=======================================
+
+🧱 Plan for oppbygging av nettstedet
+------------------------------------
+Vi har valgt følgende teknologier for prosjektet:
+- HTML5 for struktur
+- CSS3 og Bootstrap 5 via CDN for responsiv stilsetting
+- JavaScript (valgfritt, for interaktiv funksjonalitet)
+- Visual Studio Code med "Live Server" for utvikling
+
+Vi bruker Bootstrap fordi det forenkler mobiltilpasning og gir oss gode ferdige komponenter.
+
+🧩 Funksjonalitet og innhold:
+- Hjemmeside med introduksjon
+- Side for nåværende og digitale utstillinger
+- Omvisningsinfo med bestillingshenvisning
+- Praktisk info: kontakt, kart, åpningstider
+- Responsivt design for mobil, nettbrett og desktop
+
+🎨 Designvalg:
+- Enkel, moderne og historisk inspirert stil
+- Mørk navigasjonslinje for kontrast
+- Jordfarger og leservennlig typografi
+- Mobilvennlig oppsett og fleksibel layout
+
+🗺 Nettstedkart:
+- index.html
+- utstillinger.html
+- omvisninger.html
+- praktisk-info.html
+
+📅 Plan for videre arbeid:
+- Ferdigstille CSS og bilder
+- Implementere evt. ekstra interaktivitet (JS)
+- Gjennomføre validering (HTML og CSS)
+- Ferdigstille sluttrapport og dokumentasjon
+- Lage en zip-fil med alle filer for levering

@@ -1,0 +1,18 @@
+🕒 Timeføring – Tussudal Bygdemuseum Prosjekt
+
+Navn: [Ditt navn]
+------------------------------------------
+Eksempeloppføringer:
+
+Lise: 1 time – Leste oppgavetekst og krav. 14.04.2025  
+Ola: 2 timer – Lagde struktur og HTML-filer. 15.04.2025  
+Lise: 1,5 timer – Designvalg og stilsetting i CSS. 16.04.2025  
+Alle: 1 time – Møte for arbeidsfordeling og plan. 16.04.2025  
+Ola: 2 timer – Implementering av Bootstrap og responsivitet. 17.04.2025  
+
+------------------------------------------
+Totalt (per deltaker):  
+Ola: 4 timer  
+Lise: 2,5 timer  
+Alle (møter): 1 time  
+------------------------------------------
