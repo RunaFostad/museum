@@ -16,9 +16,31 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="utstillinger.html">Utstillinger</a></li>
-                    <li class="nav-item"><a class="nav-link" href="omvisninger.html">Omvisninger</a></li>
-                    <li class="nav-item"><a class="nav-link" href="praktisk-info.html">Praktisk info</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link load-content" href="#" data-content="hjem">Hjem</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Utstillinger
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item load-content" href="#" data-content="utstilling1">Utstilling 1</a></li>
+                            <li><a class="dropdown-item load-content" href="#" data-content="utstilling2">Utstilling 2</a></li>
+                            <li><a class="dropdown-item load-content" href="#" data-content="utstilling3">Utstilling 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Omvisninger
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item load-content" href="#" data-content="omvisning1">Omvisninger</a></li>
+                            <li><a class="dropdown-item load-content" href="#" data-content="omvisning2">Gamle Gårder</a></li>
+                            <li><a class="dropdown-item load-content" href="#" data-content="omvisning3">Jordbruk</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link load-content" href="#" data-content="praktisk-info">Praktisk info</a></li>
+
                 </ul>
             </div>
         </div>
@@ -29,17 +51,15 @@
         <p>Utforsk 250 år med lokal historie og kultur</p>
     </header>
 
-    <main class="container my-5">
-        <section>
-            <h2>Om museet</h2>
-            <p>Museet dokumenterer livet i Tussudal gjennom utstillinger, foto og gjenstander fra de siste 250 årene. Her kan du oppleve skiftende temaer hver sommer.</p>
-        </section>
+    <main id="content" class="container my-5">
+        <!-- Content blir hentet fra content mappen og fyller denne beholderen -->
     </main>
 
     <footer class="bg-dark text-white text-center py-3">
         &copy; 2025 Tussudal Bygdemuseum
     </footer>
 
+    <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
