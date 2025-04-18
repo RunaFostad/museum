@@ -1,4 +1,4 @@
-<section>
+<!--<section>
     <h1>Praktisk info</h1>
 
     <h3>Åpningstider</h3>
@@ -9,6 +9,39 @@
     <p>Vi godtar telefaks, morsesignaler og tresnitt!</p>
     <p>Telefon: <a href="tel:+4774001234">74 00 12 34</a></p>
 
+    <h3>Beliggenhet</h3>
+    <div class="responsive-map">
+        <iframe
+            src="https://www.google.com/maps?q=Trøndelag&output=embed"
+            allowfullscreen=""
+            loading="lazy"
+            title="Kart over Trøndelag">
+        </iframe>
+    </div>
+</section>-->
+<section>
+    <h1>Praktisk info</h1>
+
+    <!-- Create a flex container for Åpningstider + Kontaktinfo + Image -->
+    <div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 20px; margin-bottom: 40px;">
+        <!-- 📝 Text on the left -->
+        <div style="flex: 1;">
+            <h3>Åpningstider</h3>
+            <p>Mandag – Søndag: 10:00 – 17:00</p>
+
+            <h3 id="kontakt">Kontaktinformasjon</h3>
+            <p>E-post: <a href="mailto:post@tussudalmuseum.no">post@tussudalmuseum.no</a></p>
+            <p>Vi godtar telefaks, morsesignaler og tresnitt!</p>
+            <p>Telefon: <a href="tel:+4774001234">74 00 12 34</a></p>
+        </div>
+
+        <!-- 📸 Image on the right -->
+        <div style="flex: 1; text-align: center;">
+            <img src="img/liksomtussudal.jpg" alt="Bilde av Tussudal" style="max-width: 100%; height: auto; border-radius: 8px;">
+        </div>
+    </div>
+
+    <!-- 🌍 Full width map and beliggenhet under the flex row -->
     <h3>Beliggenhet</h3>
     <div class="responsive-map">
         <iframe

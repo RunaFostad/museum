@@ -1,24 +1,42 @@
-body {
+/* GLOBAL STYLES */
+html, body {
+    background-color: #1c1c1c; /* Mørk koksgrå */
+    color: #ffffff; /* Hvit tekst */
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    min-height: 100%;
 }
 
+/* HERO SECTION */
 header {
-    background-image: url('../img/banner.jpg'); /* legg til et bannerbilde senere */
+    background-image: url('../img/banner.jpg'); /* Bakgrunnsbilde for header */
     background-size: cover;
     background-position: center;
-    color: white;
     padding: 60px 20px;
 }
 
-main h2 {
-    color: #333;
-}
-
+/* CONTENT AREA */
 #content {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #1c1c1c; /* Koksgrå bakgrunn */
+    color: #ffffff; /* Hvit tekst */
+    padding: 40px 20px;
     transition: opacity 0.3s ease-in-out;
 }
 
+#content section {
+    background-color: transparent; /* Ikke overstyre bakgrunn */
+    color: inherit; /* Arv farge fra #content */
+}
+
+/* HEADINGS INSIDE CONTENT */
+#content h2 {
+    color: #ffffff; /* Sørger for at h2 også blir hvit og lesbar */
+}
+
+/* RESPONSIVE MAP (Google Maps iframe container) */
 .responsive-map {
     position: relative;
     padding-bottom: 56.25%;
@@ -35,9 +53,58 @@ main h2 {
     border: 0;
 }
 
+/* IMAGES */
 .custom-split-img {
     max-width: 100%;
     height: auto;
     max-height: 350px;
     object-fit: cover;
+}
+
+/* HERO IMAGE OVERLAY */
+.hero {
+    background-image: url('../img/kvikne-turisthotell-balestrand.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h1 {
+    color: #ffffff; /* Hvit tittel over hero-banner */
+}
+
+.decoration {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+
+/* NAVIGATION BAR */
+nav.navbar {
+    background-color: #1c1c1c; /* Mørk koksgrå navbar */
+}
+
+nav.navbar .nav-link {
+    color: #ffffff; /* Hvit tekst på lenker */
+}
+
+nav.navbar .nav-link:hover {
+    color: #cccccc; /* Litt lysere grå ved hover */
+}
+
+/* FOOTER */
+footer {
+    background-color: #1c1c1c;
+    color: #ffffff;
 }
